@@ -31,7 +31,7 @@ public class Vector2f {
 		double cos = Math.cos(rad);
 		double sin = Math.sin(rad);
 		//rotation equation
-		
+		//this part take care 2d vectors
 		return new Vector2f ((float)(x*cos-y*sin),(float)(x*sin + y * cos));
 	}
 	public Vector2f add(Vector2f r){
