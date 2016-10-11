@@ -9,9 +9,9 @@ public class Game {
 	}
 	
 	public void input(){
-		if(Input.getkey(Keyboard.KEY_UP))
+		if(Input.getKey(Keyboard.KEY_UP))
 			System.out.println("we ' just pressed up!");
-		if(Input.getkey(Keyboard.KEY_UP))
+		if(Input.getKey(Keyboard.KEY_UP))
 			System.out.println("we've just released up!");
 		
 		if(Input.getMouseDown(1))
